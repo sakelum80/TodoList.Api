@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TodoList.Data;
+using TodoList.Repository;
+using TodoList.Service;
 
 namespace TodoList
 {
@@ -29,6 +31,8 @@ namespace TodoList
         {
             services.AddDbContext<TodoListDBContext>(opt => opt.UseInMemoryDatabase(Configuration.GetConnectionString("TodoListdb")));
             services.AddControllers();
+
+            services.AddScoped<ITodoListRepo, TodoListService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
