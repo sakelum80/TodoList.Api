@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{32
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApi.Data", "TodoListApi.Data\TodoListApi.Data.csproj", "{6628F645-1C93-40B4-9FCF-1563A27E1817}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Service.UnitTests", "TodoList.Service.UnitTests\TodoList.Service.UnitTests.csproj", "{968CA0FE-5001-40D5-A6D7-A8871D44DDF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{6628F645-1C93-40B4-9FCF-1563A27E1817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6628F645-1C93-40B4-9FCF-1563A27E1817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6628F645-1C93-40B4-9FCF-1563A27E1817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968CA0FE-5001-40D5-A6D7-A8871D44DDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968CA0FE-5001-40D5-A6D7-A8871D44DDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968CA0FE-5001-40D5-A6D7-A8871D44DDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968CA0FE-5001-40D5-A6D7-A8871D44DDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32474231-B44B-4A29-8407-D023A864724D} = {4F35E647-0FA6-46B8-B80D-1760B0D97017}
 		{6628F645-1C93-40B4-9FCF-1563A27E1817} = {32474231-B44B-4A29-8407-D023A864724D}
+		{968CA0FE-5001-40D5-A6D7-A8871D44DDF3} = {32474231-B44B-4A29-8407-D023A864724D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A5ABEEC-39D8-4E68-A41D-6C84664903B7}
